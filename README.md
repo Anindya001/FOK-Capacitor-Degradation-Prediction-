@@ -1,6 +1,6 @@
-# RESS CAPDATA3 Reproducibility Package
+# FOK REPRODUCIBILITY 
 
-This repository is a reviewer-facing reproducibility package for the fractional-order kinetics (FOK) capacitor prognostics study on the CAPDATA3 dataset. It contains the raw Excel workbook, the full analysis code, precomputed outputs, and a one-command pipeline that regenerates the tables, figures, and manuscript metrics shipped in `output/`.
+This repository is a  reproducibility package for the fractional-order kinetics (FOK) capacitor prognostics study on the CAPDATA3 dataset. It contains the raw Excel workbook, the full analysis code, precomputed outputs, and a one-command pipeline that regenerates the tables, figures, and manuscript metrics shipped in `output/`.
 
 The full pipeline was re-run from this folder on March 24, 2026 in the current workspace. The regenerated manifests are portable and repo-relative, so the package can be cloned and executed on a different machine without editing hard-coded paths.
 
