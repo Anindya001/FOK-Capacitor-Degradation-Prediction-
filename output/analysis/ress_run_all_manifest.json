@@ -1,0 +1,125 @@
+{
+  "analysis_dir": "output/analysis",
+  "source_excel": "source/data/raw/CAPDATA3.xlsx",
+  "batch_rows": 72,
+  "statistical_outputs": {
+    "pairwise": "output/analysis/ress_pairwise_statistics.csv",
+    "classical_splitwise": "output/analysis/ress_classical_splitwise_statistics.csv",
+    "classical_splitwise_summary": "output/analysis/ress_classical_splitwise_summary.json",
+    "alpha_pairs": "output/analysis/ress_fok_kww_gain_vs_alpha.csv",
+    "alpha_summary": "output/analysis/ress_fok_kww_gain_vs_alpha_summary.json",
+    "residual_points": "output/analysis/ress_residual_bias_points.csv",
+    "residual_cases": "output/analysis/ress_residual_bias_cases.csv",
+    "residual_summary": "output/analysis/ress_residual_bias_summary.csv"
+  },
+  "model_selection_outputs": {
+    "aic_bic_table": "output/analysis/ress_mechanistic_aic_bic_6040.csv",
+    "aic_bic_wins": "output/analysis/ress_mechanistic_aic_bic_wins_6040.json",
+    "rmse_summary": "output/analysis/ress_mechanistic_split_mean_rmse.csv",
+    "mae_summary": "output/analysis/ress_mechanistic_split_mean_mae.csv"
+  },
+  "calibration_outputs": {
+    "curve": "output/analysis/ress_reliability_curve.csv",
+    "mace": "output/analysis/ress_reliability_mace.csv",
+    "hierarchical": "output/analysis/ress_hierarchical_conformal_ablation.csv",
+    "manifest": "output/analysis/ress_calibration_manifest.json"
+  },
+  "threshold_outputs": {
+    "table": "output/analysis/ress_threshold_times_7030.csv",
+    "ranking": "output/analysis/ress_threshold_times_ranking_7030.json"
+  },
+  "decomposition_outputs": {
+    "ratios": "output/analysis/ress_epistemic_aleatoric_ratio_6040.csv",
+    "summary": "output/analysis/ress_epistemic_aleatoric_ratio_summary_6040.csv"
+  },
+  "sensitivity_outputs": {
+    "time_case": "output/analysis/ress_sensitivity_time_case.csv",
+    "time_summary": "output/analysis/ress_sensitivity_time_summary.csv",
+    "threshold_case": "output/analysis/ress_sensitivity_threshold_case.csv",
+    "threshold_summary": "output/analysis/ress_sensitivity_threshold_summary.csv",
+    "split_boundaries": "output/analysis/ress_sensitivity_split_boundaries.csv",
+    "summary": "output/analysis/ress_sensitivity_summary.json",
+    "time_figure": "output/analysis/ress_sensitivity_time_resolved.png",
+    "threshold_figure": "output/analysis/ress_sensitivity_threshold.png",
+    "manifest": "output/analysis/ress_sensitivity_manifest.json"
+  },
+  "figures": {
+    "fok_vs_hybrid_split_metrics": "output/analysis/ress_fok_vs_hybrid_split_metrics.png",
+    "fok_vs_hybrid_gain_heatmap": "output/analysis/ress_hybrid_rmse_gain_heatmap.png",
+    "forecast_panels": "output/analysis/ress_reduced_forecast_panels.png",
+    "decomposition": "output/analysis/ress_decomposition_panels.png",
+    "calibration_overview": "output/analysis/ress_calibration_overview.png",
+    "coverage_diagnostics": "output/analysis/capdata3_coverage_interval_diagnostics.png",
+    "gain_vs_alpha": "output/analysis/ress_fok_kww_gain_vs_alpha.png",
+    "mechanistic_rmse": "output/analysis/ress_mechanistic_rmse_with_ci.png",
+    "reliability": "output/analysis/ress_reliability_diagram.png",
+    "threshold_forest": "output/analysis/ress_threshold_forest.png",
+    "residual_bias": "output/analysis/ress_residual_bias_trend.png",
+    "full_forecast_group1": "output/analysis/ress_full_forecast_group1.png",
+    "full_forecast_group2": "output/analysis/ress_full_forecast_group2.png"
+  },
+  "tables": {
+    "full_6040": "output/analysis/ress_full_comparison_6040.csv",
+    "compact_summary": "output/analysis/ress_compact_summary_table.csv",
+    "direct_hybrid": "output/analysis/ress_direct_hybrid_comparison.csv"
+  },
+  "manuscript_metrics": "output/analysis/ress_manuscript_metrics.json",
+  "packaged_outputs": {
+    "figures": [
+      "output/figures/capdata3_coverage_interval_diagnostics.png",
+      "output/figures/ress_calibration_overview.png",
+      "output/figures/ress_decomposition_panels.png",
+      "output/figures/ress_fok_kww_gain_vs_alpha.png",
+      "output/figures/ress_fok_vs_hybrid_split_metrics.png",
+      "output/figures/ress_full_forecast_group1.png",
+      "output/figures/ress_full_forecast_group2.png",
+      "output/figures/ress_hybrid_rmse_gain_heatmap.png",
+      "output/figures/ress_mechanistic_rmse_with_ci.png",
+      "output/figures/ress_reduced_forecast_panels.png",
+      "output/figures/ress_reliability_diagram.png",
+      "output/figures/ress_residual_bias_trend.png",
+      "output/figures/ress_sensitivity_threshold.png",
+      "output/figures/ress_sensitivity_time_resolved.png",
+      "output/figures/ress_threshold_forest.png"
+    ],
+    "tables_csv": [
+      "output/tables_csv/published_hybrid_unit_benchmark.csv",
+      "output/tables_csv/ress_batch_results.csv",
+      "output/tables_csv/ress_classical_splitwise_statistics.csv",
+      "output/tables_csv/ress_compact_summary_table.csv",
+      "output/tables_csv/ress_direct_hybrid_comparison.csv",
+      "output/tables_csv/ress_epistemic_aleatoric_ratio_6040.csv",
+      "output/tables_csv/ress_epistemic_aleatoric_ratio_summary_6040.csv",
+      "output/tables_csv/ress_fok_kww_gain_vs_alpha.csv",
+      "output/tables_csv/ress_full_comparison_6040.csv",
+      "output/tables_csv/ress_hierarchical_conformal_ablation.csv",
+      "output/tables_csv/ress_mechanistic_aic_bic_6040.csv",
+      "output/tables_csv/ress_mechanistic_split_mean_mae.csv",
+      "output/tables_csv/ress_mechanistic_split_mean_rmse.csv",
+      "output/tables_csv/ress_pairwise_statistics.csv",
+      "output/tables_csv/ress_reliability_curve.csv",
+      "output/tables_csv/ress_reliability_mace.csv",
+      "output/tables_csv/ress_residual_bias_cases.csv",
+      "output/tables_csv/ress_residual_bias_points.csv",
+      "output/tables_csv/ress_residual_bias_summary.csv",
+      "output/tables_csv/ress_sensitivity_split_boundaries.csv",
+      "output/tables_csv/ress_sensitivity_threshold_case.csv",
+      "output/tables_csv/ress_sensitivity_threshold_summary.csv",
+      "output/tables_csv/ress_sensitivity_time_case.csv",
+      "output/tables_csv/ress_sensitivity_time_summary.csv",
+      "output/tables_csv/ress_threshold_times_7030.csv"
+    ],
+    "metadata": [
+      "output/metadata/ress_batch_manifest.json",
+      "output/metadata/ress_calibration_manifest.json",
+      "output/metadata/ress_classical_splitwise_summary.json",
+      "output/metadata/ress_fok_kww_gain_vs_alpha_summary.json",
+      "output/metadata/ress_manuscript_metrics.json",
+      "output/metadata/ress_mechanistic_aic_bic_wins_6040.json",
+      "output/metadata/ress_run_all_manifest.json",
+      "output/metadata/ress_sensitivity_manifest.json",
+      "output/metadata/ress_sensitivity_summary.json",
+      "output/metadata/ress_threshold_times_ranking_7030.json"
+    ]
+  }
+}

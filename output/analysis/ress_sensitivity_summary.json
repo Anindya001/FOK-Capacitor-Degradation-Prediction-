@@ -1,0 +1,142 @@
+{
+  "threshold": 0.8,
+  "split_boundaries_h": {
+    "50/50": 190.0,
+    "60/40": 262.0,
+    "70/30": 310.0
+  },
+  "splits": {
+    "50/50": {
+      "mid_horizon_sobol_total": [
+        {
+          "parameter": "alpha",
+          "median": 0.9262796461708058
+        },
+        {
+          "parameter": "k",
+          "median": 0.08478527833510638
+        },
+        {
+          "parameter": "f_inf",
+          "median": 3.974371454467161e-14
+        }
+      ],
+      "late_horizon_sobol_total": [
+        {
+          "parameter": "alpha",
+          "median": 0.9452617789476088
+        },
+        {
+          "parameter": "k",
+          "median": 0.06412507382157412
+        },
+        {
+          "parameter": "f_inf",
+          "median": 3.851731392279658e-14
+        }
+      ],
+      "threshold_sobol_total": [
+        {
+          "parameter": "alpha",
+          "median": 0.9345072778299255
+        },
+        {
+          "parameter": "k",
+          "median": 0.13045228986808086
+        },
+        {
+          "parameter": "f_inf",
+          "median": 6.113608513974543e-14
+        }
+      ]
+    },
+    "60/40": {
+      "mid_horizon_sobol_total": [
+        {
+          "parameter": "alpha",
+          "median": 0.9208261695963725
+        },
+        {
+          "parameter": "k",
+          "median": 0.08433689636880337
+        },
+        {
+          "parameter": "f_inf",
+          "median": 3.2533852039360375e-14
+        }
+      ],
+      "late_horizon_sobol_total": [
+        {
+          "parameter": "alpha",
+          "median": 0.9361874132140742
+        },
+        {
+          "parameter": "k",
+          "median": 0.06322452771522648
+        },
+        {
+          "parameter": "f_inf",
+          "median": 3.298411330187126e-14
+        }
+      ],
+      "threshold_sobol_total": [
+        {
+          "parameter": "alpha",
+          "median": 0.9399967154387424
+        },
+        {
+          "parameter": "k",
+          "median": 0.13700162034745422
+        },
+        {
+          "parameter": "f_inf",
+          "median": 5.427516752686098e-14
+        }
+      ]
+    },
+    "70/30": {
+      "mid_horizon_sobol_total": [
+        {
+          "parameter": "alpha",
+          "median": 0.9427366490230338
+        },
+        {
+          "parameter": "k",
+          "median": 0.07097767685881558
+        },
+        {
+          "parameter": "f_inf",
+          "median": 3.168454765933344e-14
+        }
+      ],
+      "late_horizon_sobol_total": [
+        {
+          "parameter": "alpha",
+          "median": 0.9575571508294516
+        },
+        {
+          "parameter": "k",
+          "median": 0.05318143175030171
+        },
+        {
+          "parameter": "f_inf",
+          "median": 3.2694151432267227e-14
+        }
+      ],
+      "threshold_sobol_total": [
+        {
+          "parameter": "alpha",
+          "median": 0.8641475108769364
+        },
+        {
+          "parameter": "k",
+          "median": 0.1337721345464402
+        },
+        {
+          "parameter": "f_inf",
+          "median": 5.156332322391722e-14
+        }
+      ]
+    }
+  }
+}

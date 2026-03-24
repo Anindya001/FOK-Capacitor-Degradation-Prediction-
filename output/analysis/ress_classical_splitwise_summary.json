@@ -1,0 +1,9 @@
+{
+  "comparison": "FOK vs Classical",
+  "scope": "splitwise_inference",
+  "pooled_descriptive_mean_delta_rmse": 5.101542472602088,
+  "pooled_descriptive_median_delta_rmse": 5.076495023543937,
+  "pooled_wins": 24,
+  "pooled_pairs": 24,
+  "note": "The same specimens contribute to all three nested splits; pooled 24-case summaries are descriptive only."
+}

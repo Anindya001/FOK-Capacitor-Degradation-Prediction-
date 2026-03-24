@@ -1,0 +1,24 @@
+{
+  "time_grid_size": 50,
+  "rho": 0.2,
+  "sobol_samples": 512,
+  "sobol_bootstrap": 200,
+  "morris_trajectories": 20,
+  "morris_levels": 4,
+  "threshold": 0.8,
+  "splits": [
+    "50/50",
+    "60/40",
+    "70/30"
+  ],
+  "files": {
+    "time_case": "C:\\Users\\DELL\\Desktop\\FOK PAPAER FINAL\\submission_source_results_only\\output\\analysis\\ress_sensitivity_time_case.csv",
+    "time_summary": "C:\\Users\\DELL\\Desktop\\FOK PAPAER FINAL\\submission_source_results_only\\output\\analysis\\ress_sensitivity_time_summary.csv",
+    "threshold_case": "C:\\Users\\DELL\\Desktop\\FOK PAPAER FINAL\\submission_source_results_only\\output\\analysis\\ress_sensitivity_threshold_case.csv",
+    "threshold_summary": "C:\\Users\\DELL\\Desktop\\FOK PAPAER FINAL\\submission_source_results_only\\output\\analysis\\ress_sensitivity_threshold_summary.csv",
+    "split_boundaries": "C:\\Users\\DELL\\Desktop\\FOK PAPAER FINAL\\submission_source_results_only\\output\\analysis\\ress_sensitivity_split_boundaries.csv",
+    "summary": "C:\\Users\\DELL\\Desktop\\FOK PAPAER FINAL\\submission_source_results_only\\output\\analysis\\ress_sensitivity_summary.json",
+    "time_figure": "C:\\Users\\DELL\\Desktop\\FOK PAPAER FINAL\\submission_source_results_only\\output\\analysis\\ress_sensitivity_time_resolved.png",
+    "threshold_figure": "C:\\Users\\DELL\\Desktop\\FOK PAPAER FINAL\\submission_source_results_only\\output\\analysis\\ress_sensitivity_threshold.png"
+  }
+}

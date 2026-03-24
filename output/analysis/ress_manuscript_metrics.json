@@ -1,0 +1,157 @@
+{
+  "hybrid_mean_diff": 5.375337569734474,
+  "hybrid_ci_low": 4.689116145974589,
+  "hybrid_ci_high": 6.136709983185882,
+  "hybrid_scope": "descriptive_only_at_specimen_level",
+  "classical_splitwise": [
+    {
+      "comparison": "FOK vs Classical",
+      "split": "50/50",
+      "n_pairs": 8,
+      "mean_fok_rmse": 2.7447617564395665,
+      "mean_comp_rmse": 9.537245158756013,
+      "mean_delta_rmse": 6.7924834023164475,
+      "median_delta_rmse": 6.659721181765675,
+      "p_value_exact": 0.00390625,
+      "rank_biserial": 1.0,
+      "wins": 8,
+      "ties": 0,
+      "mean_diff": 6.7924834023164475,
+      "bca_ci_low": 6.1653378063337945,
+      "bca_ci_high": 7.582619701126421,
+      "hodges_lehmann": 6.788169711296591,
+      "hl_ci_low": 6.114686046844642,
+      "hl_ci_high": 7.645185874992063,
+      "cliffs_delta": 1.0,
+      "cliffs_ci_low": 1.0,
+      "cliffs_ci_high": 1.0,
+      "p_superior": 1.0,
+      "p_equivalent": 0.0,
+      "p_inferior": 0.0
+    },
+    {
+      "comparison": "FOK vs Classical",
+      "split": "60/40",
+      "n_pairs": 8,
+      "mean_fok_rmse": 2.9192039548382325,
+      "mean_comp_rmse": 7.7045640280858425,
+      "mean_delta_rmse": 4.7853600732476105,
+      "median_delta_rmse": 5.041726493599553,
+      "p_value_exact": 0.00390625,
+      "rank_biserial": 1.0,
+      "wins": 8,
+      "ties": 0,
+      "mean_diff": 4.7853600732476105,
+      "bca_ci_low": 3.6579799800961776,
+      "bca_ci_high": 5.511584711346009,
+      "hodges_lehmann": 4.94545238438679,
+      "hl_ci_low": 3.6712566288276403,
+      "hl_ci_high": 5.61612859047642,
+      "cliffs_delta": 1.0,
+      "cliffs_ci_low": 1.0,
+      "cliffs_ci_high": 1.0,
+      "p_superior": 1.0,
+      "p_equivalent": 0.0,
+      "p_inferior": 0.0
+    },
+    {
+      "comparison": "FOK vs Classical",
+      "split": "70/30",
+      "n_pairs": 8,
+      "mean_fok_rmse": 2.4842715795187775,
+      "mean_comp_rmse": 6.211055521760985,
+      "mean_delta_rmse": 3.726783942242207,
+      "median_delta_rmse": 3.825223656311797,
+      "p_value_exact": 0.00390625,
+      "rank_biserial": 1.0,
+      "wins": 8,
+      "ties": 0,
+      "mean_diff": 3.726783942242207,
+      "bca_ci_low": 3.0836163799502185,
+      "bca_ci_high": 4.346880877069368,
+      "hodges_lehmann": 3.7963957027624455,
+      "hl_ci_low": 3.031133765528916,
+      "hl_ci_high": 4.485005724050291,
+      "cliffs_delta": 1.0,
+      "cliffs_ci_low": 1.0,
+      "cliffs_ci_high": 1.0,
+      "p_superior": 1.0,
+      "p_equivalent": 0.0,
+      "p_inferior": 0.0
+    }
+  ],
+  "threshold_highest_priority": {
+    "Specimen": "C6",
+    "Terminal_Retention_pct": 53.427895981087474,
+    "T_0p80_q05_h": 114.66511170340412,
+    "T_0p80_median_h": 123.11369358266131,
+    "T_0p80_q95_h": 136.475215336992,
+    "P_cross_by_560h": 0.999,
+    "Rank": 1
+  },
+  "threshold_lowest_priority": {
+    "Specimen": "C3",
+    "Terminal_Retention_pct": 73.54555433589462,
+    "T_0p80_q05_h": 367.20876344913484,
+    "T_0p80_median_h": 410.42659243432786,
+    "T_0p80_q95_h": 463.79835504181995,
+    "P_cross_by_560h": 1.0,
+    "Rank": 8
+  },
+  "threshold_ranking_validation": {
+    "spearman_rho": -0.8333333333333335,
+    "spearman_p": 0.010175540123456752
+  },
+  "ratio_summary": {
+    "endpoint": 0.9551422636900212,
+    "midpoint": 0.8878388586592311
+  },
+  "best_calibration_split": {
+    "split": "70/30",
+    "MACE": 0.1357638888888889
+  },
+  "hierarchical_summary": [
+    {
+      "split": "50/50",
+      "scheme": "hierarchical-pooled",
+      "mean_coverage": 0.6346153846153846,
+      "mean_width": 6.817251571709313,
+      "mean_wis": 17.306105578017473
+    },
+    {
+      "split": "50/50",
+      "scheme": "per-specimen",
+      "mean_coverage": 0.6346153846153846,
+      "mean_width": 6.817251571709313,
+      "mean_wis": 17.306105578017473
+    },
+    {
+      "split": "60/40",
+      "scheme": "hierarchical-pooled",
+      "mean_coverage": 0.7375,
+      "mean_width": 6.55425727293774,
+      "mean_wis": 17.47744457673135
+    },
+    {
+      "split": "60/40",
+      "scheme": "per-specimen",
+      "mean_coverage": 0.6375,
+      "mean_width": 5.649319200193808,
+      "mean_wis": 18.53285484835237
+    },
+    {
+      "split": "70/30",
+      "scheme": "hierarchical-pooled",
+      "mean_coverage": 0.6875,
+      "mean_width": 5.040356406959559,
+      "mean_wis": 16.17206003192045
+    },
+    {
+      "split": "70/30",
+      "scheme": "per-specimen",
+      "mean_coverage": 0.609375,
+      "mean_width": 4.138957255778698,
+      "mean_wis": 17.03773697071953
+    }
+  ]
+}
